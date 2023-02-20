@@ -1,0 +1,11 @@
+/**
+* Root Colour Schemas
+**/
+
+:root {
+    --light: #f2f2f2;
+    --grey: #ccc;
+    --dark: #333;
+    --highlight: #5ce6ff;
+    --accent: #ff5c5c;
+}

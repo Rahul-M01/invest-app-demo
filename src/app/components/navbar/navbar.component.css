@@ -1,0 +1,8 @@
+.icon-display {
+    transform: scale(2);
+    float: right;
+}
+
+.search-box {
+    border: 2px solid black;
+}

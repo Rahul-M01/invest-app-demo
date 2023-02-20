@@ -16,27 +16,40 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatExpansionModule } from '@angular/material/expansion';
+
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
     declarations: [
         AppComponent,
         ResultsComponent,
-        AccountComponent
+        AccountComponent,
+        NavbarComponent
     ],
     imports: [
         BrowserModule,
+        AppRoutingModule,
         AppRoutingModule,
         BrowserAnimationsModule,
         MatSidenavModule,
         MatGridListModule,
         MatMenuModule,
-        MatButtonToggleModule,
+        MatButtonModule,
         MatCardModule,
         MatIconModule,
+        MatExpansionModule,
         MatListModule,
         MatToolbarModule,
         MatTableModule,
+        MatSnackBarModule,
+        MatFormFieldModule,
+        MatInputModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
